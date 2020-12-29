@@ -14,6 +14,24 @@
         </template>
     </category>
     <category>
+        <pattern>HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
         <pattern>THANKS</pattern>
         <template>
             My pleasure to help you!
@@ -23,6 +41,26 @@
         <pattern>THANK YOU</pattern>
         <template>
             My pleasure to help you!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SET A REMINDER FOR *</pattern>
+        <template>
+            Setting a reminder for <star/>...
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            I am your virtual assisstent. I am here to help you!
+        </template>
+    </category>
+    <category>
+        <pattern>GREAT</pattern>
+        <template>
+            My pleasure!
         </template>
     </category>
 
@@ -39,6 +77,13 @@
             <srai>MEDICINE</srai>
         </template>
     </category>
+    <category>
+        <pattern>* MEDICINE</pattern>
+        <template>
+            <srai>MEDICINE</srai>
+        </template>
+    </category>
+
 
     <category>
       <pattern>DIGESTION</pattern>
@@ -60,11 +105,23 @@
             What kind of pain are you in?
         </template>
     </category>
+    <category>
+        <pattern>* PAIN</pattern>
+        <template>
+            <srai> PAIN </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAIN *</pattern>
+        <template>
+            <srai> PAIN </srai>
+        </template>
+    </category>
 
     <category>
       <pattern>HEART</pattern>
       <that>WHAT KIND OF PAIN ARE YOU IN</that>
-      <template>Dont worry! I am notifying Doc. Ramesha and calling an ambulance!</template>
+      <template>Dont worry! I am notifying Dr. Ramesha and calling an ambulance!</template>
    </category>
    <category>
        <pattern>CHEST PAIN</pattern>
