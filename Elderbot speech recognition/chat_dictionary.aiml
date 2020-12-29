@@ -1,0 +1,220 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!--General Communication-->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hey, there! I am your virtual assisstent. How can I help you?
+        </template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THANKS</pattern>
+        <template>
+            My pleasure to help you!
+        </template>
+    </category>
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            My pleasure to help you!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SET A REMINDER FOR *</pattern>
+        <template>
+            Setting a reminder for <star/>...
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            I am your virtual assisstent. I am here to help you!
+        </template>
+    </category>
+    <category>
+        <pattern>GREAT</pattern>
+        <template>
+            My pleasure!
+        </template>
+    </category>
+
+<!--Medicine-->
+    <category>
+        <pattern>MEDICINE</pattern>
+        <template>
+            Which medicine do you need?
+        </template>
+    </category>
+    <category>
+        <pattern>* MEDICINE *</pattern>
+        <template>
+            <srai>MEDICINE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MEDICINE</pattern>
+        <template>
+            <srai>MEDICINE</srai>
+        </template>
+    </category>
+
+
+    <category>
+      <pattern>DIGESTION</pattern>
+      <that>WHICH MEDICINE DO YOU NEED</that>
+      <template>I can recommend you some antacid(Digene, Gelusil, etc.). </template>
+   </category>
+   <category>
+     <pattern>HEADACHE</pattern>
+     <that>WHICH MEDICINE DO YOU NEED</that>
+     <template>I can recommend you medicine for headache(ibuprofen, aspirin, etc.). </template>
+  </category>
+
+
+
+<!--Health Issues-->
+    <category>
+        <pattern>PAIN</pattern>
+        <template>
+            What kind of pain are you in?
+        </template>
+    </category>
+    <category>
+        <pattern>* PAIN</pattern>
+        <template>
+            <srai> PAIN </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAIN *</pattern>
+        <template>
+            <srai> PAIN </srai>
+        </template>
+    </category>
+
+    <category>
+      <pattern>HEART</pattern>
+      <that>WHAT KIND OF PAIN ARE YOU IN</that>
+      <template>Dont worry! I am notifying Dr. Ramesha and calling an ambulance!</template>
+   </category>
+   <category>
+       <pattern>CHEST PAIN</pattern>
+       <template>
+           <srai>HEART</srai>
+       </template>
+   </category>
+
+   <category>
+     <pattern>EYES</pattern>
+     <that>WHAT KIND OF PAIN ARE YOU IN</that>
+     <template>Dont worry! I will book an appointment with eye specialist!</template>
+  </category>
+
+  <category>
+    <pattern>* BLOOD * HELP *</pattern>
+    <template>Please stop blood by applying bandages in mean time I will call ambulance.</template>
+  </category>
+
+  <category>
+    <pattern>FEVER</pattern>
+    <template>Is your body temperature high?</template>
+  </category>
+  <category>
+    <pattern>* FEVER</pattern>
+    <template><srai>FEVER</srai></template>
+  </category>
+  <category>
+    <pattern>YES</pattern>
+    <that>IS YOUR BODY TEMPERATURE HIGH</that>
+    <template>I recommend you to take paracetamol tablet.</template>
+  </category>
+  <category>
+    <pattern>NO</pattern>
+    <that>IS YOUR BODY TEMPERATURE HIGH</that>
+    <template>Drink some ginger tea, you will feel better.</template>
+  </category>
+
+  <category>
+    <pattern>VOMITING</pattern>
+    <template>I recommend you Zofran or promethazine tablests.</template>
+  </category>
+  <category>
+    <pattern>NAUSEA</pattern>
+    <template><srai>VOMITING</srai></template>
+  </category>
+
+  <category>
+    <pattern>* VOMITING</pattern>
+    <template><srai>VOMITING</srai></template>
+  </category>
+
+
+<!--Grocery-->
+  <category>
+    <pattern>FRUIT OVER</pattern>
+    <template>Which fruit do you want?</template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <that>WHICH FRUIT DO YOU WANT</that>
+    <template>Okay! I will order <star/> from grocery store.</template>
+  </category>
+
+  <category>
+    <pattern>VEGETABLE OVER</pattern>
+    <template>Which vegetable do you want?</template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <that>WHICH VEGETABLE DO YOU WANT</that>
+    <template>Okay! I will order <star/> from grocery store.</template>
+  </category>
+
+
+<!--Emergency Contacts-->
+  <category>
+    <pattern>EMERGENCY</pattern>
+    <template>I am calling your emergency contacts. Calling your daughter..</template>
+  </category>
+  <category>
+    <pattern>URGENT</pattern>
+    <template><srai>EMERGENCY</srai></template>
+  </category>
+
+
+<!--Default-->
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry! I am very young and still learning. I have no answer for that.</template>
+  </category>
+
+
+
+
+</aiml>
