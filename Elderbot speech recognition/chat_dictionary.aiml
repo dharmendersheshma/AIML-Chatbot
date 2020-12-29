@@ -121,7 +121,7 @@
     <category>
       <pattern>HEART</pattern>
       <that>WHAT KIND OF PAIN ARE YOU IN</that>
-      <template>Dont worry! I am notifying Dr. Ramesha and calling an ambulance!</template>
+      <template>Dont worry! I am notifying Dr. XYZ and calling an ambulance!</template>
    </category>
    <category>
        <pattern>CHEST PAIN</pattern>
@@ -138,7 +138,7 @@
 
   <category>
     <pattern>* BLOOD * HELP *</pattern>
-    <template>Please stop blood by applying bandages in mean time I will call ambulance.</template>
+    <template>Please stop blood by applying bandages in mean time I will call ambulance. I am also notifying Dr. XYZ</template>
   </category>
 
   <category>
@@ -229,8 +229,6 @@
     <pattern>*</pattern>
     <template>Sorry! I am very young and still learning. I have no answer for that.</template>
   </category>
-
-
 
 
 </aiml>
