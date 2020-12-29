@@ -206,6 +206,22 @@
     <pattern>URGENT</pattern>
     <template><srai>EMERGENCY</srai></template>
   </category>
+  <category>
+    <pattern>* EMERGENCY</pattern>
+    <template><srai>EMERGENCY</srai></template>
+  </category>
+  <category>
+    <pattern>* EMERGENCY *</pattern>
+    <template><srai>EMERGENCY</srai></template>
+  </category>
+  <category>
+    <pattern>* URGENT</pattern>
+    <template><srai>EMERGENCY</srai></template>
+  </category>
+  <category>
+    <pattern>* URGENT *</pattern>
+    <template><srai>EMERGENCY</srai></template>
+  </category>
 
 
 <!--Default-->
